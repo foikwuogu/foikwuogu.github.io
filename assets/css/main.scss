@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter for Jekyll processing.
+---
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+.greedy-nav {
+  column-gap: 1.25rem;
+}
+
+.greedy-nav .site-title {
+  margin-right: 1.5rem;
+}
+
+.page__content,
+.archive,
+.archive__item,
+.notice,
+.page,
+body {
+  text-align: left;
+}

@@ -1,0 +1,128 @@
+# ===================================================================
+# Site configuration — built on the "academicpages" fork of the
+# Minimal Mistakes Jekyll theme (the same template used by
+# jayrobwilliams.com). This mirrors that structure so the site can be
+# served locally with `bundle exec jekyll serve` and published for
+# free on GitHub Pages.
+# ===================================================================
+
+locale                   : "en-US"
+title                    : "Friday O. Ikwuogu"
+title_separator          : "-"
+name                     : &name "Friday O. Ikwuogu"
+description              : &description "PhD Researcher."
+url                      : "https://foikwuogu.github.io"
+baseurl                  : ""                                    # subpath if not using a user/org site, e.g. "/repo-name"
+repository               : "foikwuogu/foikwuogu.github.io"
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+
+# Remote theme — GitHub Pages builds this automatically, no local
+# theme files needed. This is the exact same theme academicpages
+# (and jayrobwilliams.com) is built on.
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# Build settings
+markdown                 : kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+paginate                 : 10
+paginate_path            : /page:num/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme   # ← THIS IS MISSING AND REQUIRED
+
+author:
+  name             : *name
+  avatar           : "/images/profile.jpg"
+  bio              : "PhD Research in Computing"
+  location         : "Midland Tx USA"
+  employer         :
+  uri              :
+  email            : "friday.ikwuogu@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:friday.ikwuogu@gmail.com"
+    - label: "School Email"
+      icon: "fas fa-fw fa-school"
+      url: "mailto:ikwuogu_f57913@utpb.edu"
+    - label: "IEEE Email"
+      icon: "fas fa-fw fa-microchip"
+      url: "mailto:ogochukwu.o.ikwuogu@ieee.org"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone-square"
+      url: "tel:+14323169957"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0009-2222-1318"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?hl=en&authuser=1&user=XADxRNkAAAAJ"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/profile/Friday-O-Ikwuogu/research"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/fo.ikwuogu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/foikwuogu"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/foikwuogu"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0009-2222-1318"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/fo.ikwuogu"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+
+include: ["_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
