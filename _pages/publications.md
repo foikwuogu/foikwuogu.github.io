@@ -10,6 +10,6 @@ My publication record spans intelligent networking, critical infrastructure prot
 {% for post in publications %}
 {{ post.citation }}
 
-[Access publication](https://scholar.google.com/citations?hl=en&authuser=1&user=XADxRNkAAAAJ)
+{% if post.paperurl %}[Access publication]({{ post.paperurl }}){% else %}[Access publication](https://scholar.google.com/citations?hl=en&authuser=1&user=XADxRNkAAAAJ){% endif %}
 
 {% endfor %}
