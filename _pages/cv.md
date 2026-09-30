@@ -56,7 +56,6 @@ Professional Experience
 
 Entrepreneurial Experience
 ======
-* **2017 – Present**: Founder & Managing Director, SchoolGrade Link (Educational Technology Startup)
   * Strategic leadership in designing and delivering cybersecurity awareness and digital skills initiatives
   * Directed development of industry-aligned cybersecurity training programs and enterprise technology solutions
 * **2017 – Present**: Co-Founder, ABBI Elite Forum (Non-Profit Organization)
@@ -64,13 +63,13 @@ Entrepreneurial Experience
 
 Publications
 ======
-See the full list on the [Publications](/publications/) page. 9+ peer-reviewed publications; 182 citations; IEEE Access reviewer (80+ completed reviews).
+See the full list on the [Publications](/publications/) page. Current citation metrics are on [Google Scholar](https://scholar.google.com/citations?user=XADxRNkAAAAJ). Peer reviewer for IEEE Access.
 
 Peer-Review and Editorial Service
 ======
 * **2024 – Present**: Active Peer Reviewer, IEEE Access
   * Areas: SDN, 5G/6G wireless communications, network performance optimization, AI for communication systems, federated learning, graph neural networks, reinforcement learning, IoT, cybersecurity, cloud/edge computing
-  * Completed reviews for 80+ research manuscripts, delivering assessments of methodology, innovation, and technical contribution
+  * Reviews research manuscripts, delivering assessments of methodology, innovation, and technical contribution
 
 Institutional Leadership & Service
 ======
