@@ -49,7 +49,7 @@ plugins:
 author:
   name             : *name
   avatar           : "/images/profile.jpg"
-  bio              : "PhD Research in Computing"
+  bio              : "Independent Researcher (AI & Critical Infrastructure)"
   location         : "Midland Tx USA"
   employer         :
   uri              :
