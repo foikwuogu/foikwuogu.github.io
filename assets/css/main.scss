@@ -26,6 +26,11 @@ body {
   line-height: 1.45;
 }
 
+.page .page__content {
+  line-height: 1.45;
+}
+
+.page .page__content p,
 .page__content p,
 .archive p,
 .archive__item p,
@@ -33,6 +38,7 @@ body {
   margin-bottom: 0.85em;
 }
 
+.page .page__content li,
 .page__content li,
 .archive li,
 .archive__item li,
@@ -40,6 +46,7 @@ body {
   margin-bottom: 0.35em;
 }
 
+.page .page__content h2,
 .page__content h2,
 .archive h2,
 .archive__item h2,
@@ -48,6 +55,7 @@ body {
   margin-bottom: 0.4em;
 }
 
+.page .page__content h3,
 .page__content h3,
 .archive h3,
 .archive__item h3,
