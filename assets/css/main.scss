@@ -21,3 +21,37 @@
 body {
   text-align: left;
 }
+
+body {
+  line-height: 1.45;
+}
+
+.page__content p,
+.archive p,
+.archive__item p,
+.notice p {
+  margin-bottom: 0.85em;
+}
+
+.page__content li,
+.archive li,
+.archive__item li,
+.notice li {
+  margin-bottom: 0.35em;
+}
+
+.page__content h2,
+.archive h2,
+.archive__item h2,
+.notice h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+.page__content h3,
+.archive h3,
+.archive__item h3,
+.notice h3 {
+  margin-top: 1.3em;
+  margin-bottom: 0.35em;
+}
