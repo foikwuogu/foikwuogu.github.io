@@ -5,6 +5,8 @@ main:
     url: /publications/
   - title: "Research"
     url: /research/
+  - title: "Pipeline Notes"
+    url: "https://foikwuogu.github.io/quantum-safe-pipeline-notes/"
   - title: "DataSet"
     url: /dataset.html
   - title: "Membership"
