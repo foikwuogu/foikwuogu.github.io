@@ -7,7 +7,7 @@ main:
     url: /research/
   - title: "Blog"
     url: "https://foikwuogu.github.io/quantum-safe-pipeline-notes/"
-  - title: "DataSet"
+  - title: "Dataset"
     url: /dataset.html
   - title: "Membership"
     url: /membership/
